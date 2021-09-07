@@ -2,6 +2,6 @@
 echo ""
 echo "=================="
 echo "Trim sur le disque dur"
-fstrim -v / 
+sudo fstrim -v / 
 echo "=================="
 echo "Script terminé"

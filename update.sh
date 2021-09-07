@@ -2,14 +2,14 @@
 echo ""
 echo "=================="
 echo "Mise à jour des packages Linux"
-apt update 
-apt upgrade -y
-apt full-upgrade
-apt autoremove --purge
-apt autoclean
+sudo apt update 
+sudo apt upgrade -y
+sudo apt full-upgrade
+sudo apt autoremove --purge
+sudo apt autoclean
 echo "=================="
 echo "Mise à jour des binaires"
-snap refresh --list
+sudo snap refresh --list
 # rustup update
 # terraform -version
 # echo "=================="
